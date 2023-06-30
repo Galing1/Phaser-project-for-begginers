@@ -1,0 +1,17 @@
+/* .{
+  background-color: green ;
+  background-color: blue ;
+  background-color: cyan
+}
+
+.*/
+
+#gameCanvas {
+  width: 800px ;
+  height: 600px ;
+  cursor: default ;
+}
+
+#gameCanvas.hovered {
+  cursor: pointer ;
+}
