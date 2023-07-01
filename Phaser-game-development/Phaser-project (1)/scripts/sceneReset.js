@@ -4,8 +4,8 @@ class resetScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('button', 'assets/restart-button.png') ;
-    this.load.audio('sad-music', 'assets/sad-music.mp3') ;
+    this.load.image('button', '../assets/restart-button.png') ;
+    this.load.audio('sad-music', '../assets/sad-music.mp3') ;
   }
 
   create() {

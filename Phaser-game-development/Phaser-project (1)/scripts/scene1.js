@@ -4,9 +4,9 @@ class Scene1 extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('bird', 'assets/flappy-bird.png');
-    this.load.image('pipe', 'assets/square-pipe.png');
-    this.load.audio('music', 'assets/flappy-bird-song.mp3') ;
+    this.load.image('bird', '../assets/flappy-bird.png');
+    this.load.image('pipe', '../assets/square-pipe.png');
+    this.load.audio('music', '../assets/flappy-bird-song.mp3') ;
   }
 
   create() {
